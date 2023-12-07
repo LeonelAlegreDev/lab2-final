@@ -14,3 +14,6 @@ CREATE TABLE empleados(
     sueldo  INT(50) NOT NULL,
     PRIMARY KEY(id)
 ) AUTO_INCREMENT=1;
+
+-- setea la contraseña del usuario root
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'secret_password';
